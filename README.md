@@ -1,35 +1,34 @@
-# Next.js + Jest
+# QuestionTime
 
-This example shows how to configure Jest to work with Next.js.
+QuestionTime is a web application that provides registered users with a platform to create and manage multiple-choice questions. It is designed with educators and surveyors in mind, offering a simple and intuitive interface for question setup and administration.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+## Features
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+- Secure user authentication using personal tokens.
+- CRUD operations for question management.
+- Addition and removal of multiple choice options.
+- Responsive design for a seamless experience on various devices.
 
-## Deploy your own
+## Getting Started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
+These instructions will guide you through getting a copy of the project up and running on your local machine for development and testing purposes.
 
-## How to Use
+### Prerequisites
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+To run this project, you will need Node.js and npm installed on your machine. The Node.js installation will include npm. You can download Node.js from the [official website](https://nodejs.org/).
 
-In your terminal, run the following command:
+### Installation
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+Clone the repository and install the dependencies:
 
 ```bash
-pnpm create next-app --example with-jest with-jest-app
-```
+git clone https://github.com/your-username/questiontime.git
+cd questiontime
+npm install
+npm run dev
 
-## Running Tests
+## Deploy on Vercel
 
-```bash
-npm test
-```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
