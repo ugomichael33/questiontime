@@ -22,7 +22,7 @@ To run this project, you will need Node.js and npm installed on your machine. Th
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/questiontime.git
+git clone https://github.com/ugomichael33/questiontime.git
 cd questiontime
 npm install
 npm run dev
